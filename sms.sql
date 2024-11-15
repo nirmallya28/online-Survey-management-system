@@ -1,10 +1,5 @@
 -- phpMyAdmin SQL Dump
--- version 4.5.1
--- http://www.phpmyadmin.net
---
 -- Host: 127.0.0.1
--- Generation Time: Oct 05, 2018 at 04:21 PM
--- Server version: 10.1.19-MariaDB
 -- PHP Version: 7.0.13
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -36,7 +31,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`email`, `password`) VALUES
-('mamoudkolawole@gmail.com', 'spoon');
+('nirmallyaray7@gmail.com', 'spoon');
 
 -- --------------------------------------------------------
 
@@ -70,7 +65,7 @@ CREATE TABLE `history` (
 --
 
 INSERT INTO `history` (`email`, `eid`, `score`, `level`, `sahi`, `wrong`, `date`) VALUES
-('sarahlittlewind@gmail.com', '5bacef20db9a7', 0, 2, 0, 2, '2018-09-27 16:34:05');
+('nirmallyaray7@gmail.com', '5bacef20db9a7', 0, 2, 0, 2, '2018-09-27 16:34:05');
 
 -- --------------------------------------------------------
 
@@ -185,7 +180,7 @@ CREATE TABLE `rank` (
 --
 
 INSERT INTO `rank` (`email`, `score`, `time`) VALUES
-('sarahlittlewind@gmail.com', 0, '2018-09-27 16:34:05');
+('adityakumar@gmail.com', 0, '2024-11-2 16:34:05');
 
 -- --------------------------------------------------------
 
@@ -234,8 +229,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`name`, `gender`, `college`, `email`, `mob`, `password`) VALUES
-('Kolawole Mamoud', 'M', 'LASU', 'mamoudkolawole@gmail.com', 9096830056, '4b8e23084e0f4d55a47102da363ef90c'),
-('Sarah Wind', 'F', 'LASPOTECH', 'sarahlittlewind@gmail.com', 6318989954, '4b8e23084e0f4d55a47102da363ef90c');
+('NIRMALLYA', 'M', 'IEM', 'nirmallyadevray@gmail.com', 7797586630, '4b8e23084e0f4d55a47102da363ef90c'),
+('aditya', 'M', 'IEM', 'thakuradi.com', 6318989954, '4b8e23084e0f4d55a47102da363ef90c');
 
 --
 -- Indexes for dumped tables
