@@ -1,0 +1,188 @@
+body {
+    overflow-x: hidden;
+    width: 100%;
+    font: 15px "Century Gothic", "Times Roman", sans-serif;
+    background: linear-gradient(135deg, #121212, #2d2d2d);
+    min-height: 550px;
+    background-attachment: fixed;
+    perspective: 1000px; /* Adds depth for 3D effects */
+  }
+  
+  .bg {
+    min-height: 540px;
+  }
+  
+  .bg1 {
+    background: url(../image/bg.jpg);
+    min-height: 535px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.9); /* Adds depth */
+    transform: rotateX(15deg) scale(1.1); /* 3D rotation effect */
+    transition: transform 1s ease-in-out;
+  }
+  
+  .bg1:hover {
+    transform: rotateX(0deg) scale(1);
+  }
+  
+  @font-face {
+    font-family: 'typo';
+    src: url('../fonts/typo.ttf');
+  }
+  
+  @font-face {
+    font-family: 'gothic';
+    src: url('../fonts/gothics.ttf');
+  }
+  
+  .panel {
+    border-color: #eee;
+    margin: 40px;
+    padding: 20px;
+    font: 15px "Century Gothic", "Times Roman", sans-serif;
+  }
+  
+  .title {
+    font-family: 'typo';
+  }
+  
+  .header {
+    background: #1a1a1a;
+    height: 70px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .logo {
+    font-family: 'typo';
+    font-size: 35px;
+    color: #ffbb33;
+    margin: 15px;
+    text-shadow: 2px 2px 8px rgba(255, 187, 51, 0.7);
+  }
+  
+  .title1 {
+    font: 16px "Century Gothic", "Times Roman", sans-serif;
+  }
+  
+  .title2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+  }
+  
+  .sub1 {
+    width: 90px;
+    color: #202020;
+    background: orange;
+    font-size: 15px;
+    height: 35px;
+    margin: 20px;
+    padding: 10px;
+    width: 100px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .sub1:hover {
+    transform: scale(1.1);
+    background: #ffbb33;
+    color: #fff;
+    box-shadow: 2px 2px 10px rgba(255, 187, 51, 0.8);
+  }
+  
+  .sub {
+    width: 100%;
+    background-color: #4caf50;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-right: 20px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  .sub:hover {
+    color: #fff;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(76, 175, 80, 0.7);
+  }
+  
+  .footer {
+    font-size: 15px;
+    text-align: center;
+    border-top: 1px solid;
+    border-color: #323232;
+    background-color: #202020;
+    padding: 15px;
+  }
+  
+  .footer a {
+    margin: 25px;
+    color: orange;
+    text-decoration: none;
+    font: 15px "Century Gothic", "Times Roman", sans-serif;
+  }
+  
+  .footer a:hover {
+    text-decoration: none;
+    color: #9acd32;
+    border-top: 2px solid;
+    border-color: orange;
+  }
+  
+  .box {
+    padding: 9px;
+    border-radius: 5px;
+    background: #1e1e1e;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  hr {
+    color: #ffffff;
+    opacity: 0.2;
+  }
+  
+  .top {
+    margin-top: 20px;
+  }
+  
+  .log1 {
+    font: 15px 'Ubuntu', sans-serif;
+    color: orange;
+    margin-left: 10px;
+  }
+  
+  .log {
+    margin: 10px;
+    margin-right: 60px;
+    margin-left: 5px;
+    color: orange;
+    text-decoration: none;
+    font-size: 20px;
+    font-size: 15px;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+  }
+  
+  .log:hover {
+    color: #9acd32;
+    text-shadow: 0 0 10px #9acd32;
+  }
+  
+  .animated-btn {
+    background: linear-gradient(135deg, #6200ea, #3700b3);
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 8px rgba(98, 0, 234, 0.6);
+  }
+  .animated-btn:hover {
+    transform: translateY(-5px) scale(1.05);
+    background: linear-gradient(135deg, #3700b3, #6200ea);
+    box-shadow: 0 8px 15px rgba(55, 0, 179, 0.8);
+  }
+  
