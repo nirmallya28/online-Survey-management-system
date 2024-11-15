@@ -1,6 +1,6 @@
 -- phpMyAdmin SQL Dump
 -- Host: 127.0.0.1
--- PHP Version: 7.0.13
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -65,7 +65,7 @@ CREATE TABLE `history` (
 --
 
 INSERT INTO `history` (`email`, `eid`, `score`, `level`, `sahi`, `wrong`, `date`) VALUES
-('nirmallyaray7@gmail.com', '5bacef20db9a7', 0, 2, 0, 2, '2018-09-27 16:34:05');
+('nirmallyaray7@gmail.com', '5bacef20db9a7', 0, 2, 0, 2, '2024-10-27 16:34:05');
 
 -- --------------------------------------------------------
 
